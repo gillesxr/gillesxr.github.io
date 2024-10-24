@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Change TOR exit node"
 lang: en
 date: 2024-10-21
