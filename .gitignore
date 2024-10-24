@@ -1,0 +1,11 @@
+# jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# vi swap file
+.*.py.swp
+.*.toml.swp
+.*.yml.swp
