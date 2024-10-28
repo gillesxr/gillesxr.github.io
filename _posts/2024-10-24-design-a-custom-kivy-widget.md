@@ -310,5 +310,5 @@ And that's all, we obtain the desired result !
 
 ## Closing words ##
 We have made a custom animated widget and learned many things about Kivy. There is still much to discover. So experiment and have fun with Kivy and Python.
-The source code is available on Github.
+The source code is available on [Github](https://github.com/gillesxr/Kivy_animated_widget).
 
