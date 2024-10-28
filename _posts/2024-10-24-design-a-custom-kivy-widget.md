@@ -12,7 +12,7 @@ categories: python kivy
 An interesting side of Kivy is its GUI description language named *KV language*, *kvlang* or the Kivy language.   It allows to separate the interface design from the application logic. 
 So let's see this in designing this widget step by step:
 
-[Awesome_widget.webm](:/95e982ee99d145d1b67da1f286bc22b4)
+[Awesome_widget.webm](https://github.com/user-attachments/assets/8008c068-1f05-4a36-868d-67f4ef592fa6)
 
 Our custom widget is a popup embedding a red moving rectangle. A use case might be to wait for a process that we don't know how long it will takes to complete.
 
@@ -60,7 +60,7 @@ poetry run python awesome_widget/app_with_kv.py
 You must obtain this not so good but not so bad result:
 
 
-![01_main_app.png](:/41f10726dff74776b8492d33a416ffe0)
+![01_main_app.png](/assets/images/01_main_app.png)
 
 
 Notice the name in the title bar, it's the name of our app class without the App suffix. Try to change the *MyApp* class name and observe the result.
@@ -100,7 +100,7 @@ We created the class `RootWidget` which derive from `AnchorLayout`. The class `A
 
 Now If you try the code, you should obtain this:
 
-![02_main_window_with_a_button.png](:/067cb11f3cd04b43b906a659716919f0)
+![02_main_window_with_a_button.png](/assets/images/02_main_window_with_a_button.png)
 
 If you click on the button, it will be a color change but nothing more as we not yet bind an action with it. You will note that the button fill entirely the anchor layout. To change this, either you precise a size with the property `size` or a relative size with the property [size_hint](https://kivy.org/doc/stable/api-kivy.uix.layout.html#understanding-the-size-hint-property-in-widget). If it not really needed, it's better to change  `size_hint`  property which is defined by default to (1.0, 1.0). Add the following line after the *text* attribute:
 
@@ -138,7 +138,7 @@ This code opens the popup when we release the button. We use the [*Factory objec
 
 And here is the result:
 
-![03_popup_open_after_creation.png](:/3d0464b9c8df498d886b6f6409cda6d7)
+![03_popup_open_after_creation.png](/assets/images/03_popup_opn_after_creation.png)
 
 As before the popup fill the window as we don't give any hint about its size. So we add the following property to the popup:
 
@@ -176,7 +176,7 @@ We made `WaitBar` a child of `RelativeLayout` because if we don't, the position 
 Let's see the result:
 
 
-![04_popup_and_fixed_rectangle.png](:/f4545d4695124197bb340550d64de856)
+![04_popup_and_fixed_rectangle.png](/assets/images/04_popup_and_fixed_rectangle.png)
 
 
 
